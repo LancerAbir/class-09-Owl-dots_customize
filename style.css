@@ -1,0 +1,135 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}    
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #888988;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+.section_padding {
+    padding: 80px 0;
+}
+.client_testimonials_list .owl-dots div {
+    background-color: #6aaf08;
+    border-radius: 4px;
+    display: inline-block;
+    height: 5px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 20px;
+}
+.client_testimonials_list .owl-dots div.active {
+    background-color: #333;
+    margin: 0 10px;
+    width: 30px;
+}
+.client_testimonials_list .owl-dots {
+    margin-top: 60px;
+    text-align: center;
+}
+.underline_title span {
+    background-color: #6aaf08;
+    border-radius: 4px;
+    display: inline-block;
+    height: 5px;
+    left: 0;
+    width: 50px;
+}
+.underline_title span.black_underline {
+    background-color: #333;
+    margin: 0 10px;
+    width: 30px;
+}
+.section_title {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.client_testimonials_item {
+    box-shadow: 0 0 1px #d5dccc;
+    margin: 5px;
+    padding: 20px;
+    font-style: italic;
+}
+.client_testimonials_item h3 {
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+}
+.client_testimonials_item h3 span {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #888988;
+    font-weight: normal;
+}
+
+
+.client_testimonials_icon i.fa {
+    color: #6aaf08;
+    font-size: 20px;
+    left: 22px;
+    position: absolute;
+    top: 50%;
+    line-height: 30px;
+    margin-top: -15px;
+}
+.client_testimonials_item :after {
+    left: 60px;
+    top: 21px;
+    height: 70%;
+    width: 2px;
+    background: #d1d1d1;
+    position: absolute;
+    content: "";
+}
+.client_testimonials_item {
+    position: relative;
+    padding-left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
